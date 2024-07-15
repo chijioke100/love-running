@@ -1,6 +1,17 @@
 /* Asterisk wildcard selector to overide the styles added by the browser*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 
-
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* General project style */
+    color: #3a3a3a;
+}
 /* Header */
 header {
     background-color: lightcoral;
@@ -9,6 +20,8 @@ header {
 /* Main */
 main {
     background-color: lightblue;
+    /* Make main element to take up surplus space */
+    flex: 1 0 auto;
 }
 
 /* Footer */
