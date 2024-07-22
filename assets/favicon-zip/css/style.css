@@ -184,6 +184,16 @@ main {
     /* To override the other h3 colours */
     color: #fafafa;
 }
+
+/*Gallery images*/
+#photos img {
+    width: 100%;
+}
+
+#photos {
+    line-height: 0;
+}
+
 /* Footer */
 #social-networks {
     text-align: center;
