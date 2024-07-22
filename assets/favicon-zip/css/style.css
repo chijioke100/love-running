@@ -94,7 +94,7 @@ main {
 #hero {
     height: 600px;
     width: 100%;
-    background: url("../images/hero-image.webp") no-repeat center center/cover;
+    background: url('../images/hero-image.webp') no-repeat center center/cover;
     position: relative;
 }
 
@@ -140,7 +140,7 @@ main {
 }
 
 #circle-cover-bg {
-    background: url("../images/reasons-image.webp");
+    background: url('../images/reasons-image.webp');
     height: 90vw;
     width: 90vw;
     margin-bottom: 20px;
@@ -154,6 +154,30 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+#times {
+    background: url('../images/dublin-city.webp') no-repeat center center/cover;
+    /* Handles responsibility without the use of media query */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#times div {
+    color: #fafafa;
+    background-color: rgba(0, 0, 0, .6);
+    padding: 15px;
+    text-align: center;
+    /* This will not wrap on screen less than 400px. Each div will expand to fill the available space*/
+    flex-basis: 200px;
+    flex-grow: 1;
+    /*Create a grid of grid for background image*/
+    border: 2px solid white;
+}
+
+#times h3 {
+    /* To override the other h3 colours */
+    color: #fafafa;
 }
 /* Footer */
 #social-networks {
@@ -246,8 +270,4 @@ main {
     #benefits-physical > div {
         align-self: flex-end;
     }
-
-
-
-    
 }
