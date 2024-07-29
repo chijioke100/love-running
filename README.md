@@ -28,5 +28,16 @@ This project is titled Love Running. It is a site where people in Dublin that ar
 •	Some of the benefits are “Feel Free”, “Feel Healthy”, “Feel Strong”, “Get Social”
 
 
+### Meet up times
+•	The meet up times shows the schedule to enable the users to know when and how to join.
+•	It also shows the location in Dublin.  A background image was used to make it more attractive.
+
+![Meet Up times](image-2.png)
+
+### Footer
+•	This contain a navigation link for the users to be able to connect with us on social media. 
+•	The social media used are Facebook, Instagram, Youtube. These will make the runners to stay connected to one another.
+![Social Media Links](image-5.png)
+
 
 
